@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, purple, blue, red);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  margin-bottom: 20px;
+}
+input, select, button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+}
+button {
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.dashboard {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: auto;
+}
